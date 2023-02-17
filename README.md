@@ -1,2 +1,2 @@
 # CURIOS
-CCaraga Unified Repository of Innovations and Scientific Studies
+Caraga Unified Repository of Innovations and Scientific Studies
