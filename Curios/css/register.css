@@ -1,0 +1,407 @@
+body{
+    margin: -1%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 12px;
+   
+}
+
+body:before{
+    content: '';
+    position: fixed;
+    filter: blur(80px);
+}
+
+.center_photo, .center_logo{
+    justify-content: center;
+    margin: 1% auto 60px;
+    display: block;
+    width: auto;
+    max-width: 1200px;
+}
+
+
+
+.container{
+   
+    width: 400px;
+    max-width: auto;
+    margin: .50rem;
+    padding: 1rem 1rem ;
+    text-align: center;
+    display: block;
+    height: 110vh;
+    top: 15vh;
+    padding-left: 50px;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.container h1{
+    font: 'Poppins Bold';  
+    font-weight: 700;
+
+}
+
+
+.container,
+.form__input,
+.form__button{
+    font: 500 1rem 'Poppins';
+   
+}
+
+.go_back{
+  text-decoration: none;
+  background-color: #0A9420;
+  color: white;
+  text-align: center;
+  padding: 4px 8px;
+  margin: auto;
+  border-radius: 20px;
+  margin-right: 8%;
+
+}
+
+.go_back:hover{
+  background-color: #ffc81f;
+  color: white;
+
+}
+
+
+body, .container, .form__input{
+    display: block;
+}
+
+.container2{
+  background-color: black;
+  margin-top: 20%;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-top: 0;
+}
+
+.form__title{
+    text-align: left;
+    padding-top: 13%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    font-size: 50px;
+}
+
+.selection__title{
+  text-align: left;
+  padding-top: 13%;
+  padding-bottom: 5%;
+  padding-left: 19%;
+  font-size: 50px;
+}
+
+.form__login{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-left: 13%;
+    padding-bottom: 8%;
+}
+
+.form__login2{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-left: 13%;
+    padding-bottom: 8%;
+    padding-top: 20%;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success{
+    color: green
+}
+
+.form__message--error{
+    color: red;
+}
+
+.form__input--group{
+    margin-bottom: .5rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0 3rem;
+}
+
+.form__input{
+    display: block;
+    width: 90%;
+    padding: .7rem ;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid white ;
+    outline: none;
+    background: rgb(237, 231, 231);
+    transition: background .2s, border-color .2s;
+    font-size: 60%;
+}
+
+.form__input:focus{
+    border-color: green;
+    background: white;
+}
+
+.form__input--error:focus{
+    border-color: green;
+}
+
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: green;
+}
+
+.form__button{
+    width: auto;
+    padding: 1rem 7rem;
+    font-weight: bold;
+    font-size: small;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    background: #ffc81f;
+    text-align: left;
+    display: block;
+}
+
+.form__button:hover{
+    background-color: #f3bb00;
+    color: white;
+}
+
+.form__button:active{
+    transform: scale(0.98);
+}
+
+.form__text{
+    text-align: center;
+    font-size: 70%;
+}
+
+.form__link{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    padding-left: 15%;
+}
+
+.form__link:hover{
+    color: green;
+}
+
+.buttons{
+    padding-top: 5%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    max-height: 15vh;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    float: auto;
+    top: 0;
+    font-weight: bold;
+  }
+  .logo h4{
+    color: black;
+    letter-spacing: 0.1px;
+    font-size: 30px;
+    margin-right: 5%;
+    
+  }
+  .logo span{
+    color: #E1AD01;
+    
+  }
+  .nav_links
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+  }
+  .nav_links a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+  }
+  #sign_in
+  {
+    background-color: #076E17;
+    color: white;
+    border-radius: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #sign_in:hover{
+    background-color: #0A9420;
+    transition: .3s;
+  }
+  .burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #E1AD01;
+    margin:5px;
+  }
+  .burger{
+    display: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width:1024px)
+  {
+    .nav_links
+    {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width:768px)
+  {
+    body{
+      overflow-x: hidden;
+    }
+    .nav_links
+    {
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 15vh;
+      background-color: #E1AD01;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+      transform: translateX(100%);
+      transition: transform 0.4s ease-in;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    
+    }
+    .nav_links li
+    {
+      border-bottom: 0.5px solid black;
+      opacity: 0%;
+      padding-right: 0px;
+      padding-left: 0px;
+     
+    }
+    .nav_links a:hover{
+      color: white;
+      transition: .1s;
+    }
+    #sign_in
+    {
+      background-color: inherit;
+      color: inherit;
+      padding: 0px;
+    }
+    #sign_in:hover
+    {
+      background-color: inherit;
+      color: white;
+    }
+    .burger
+    {
+      display: block;
+    }
+  }
+  .nav_active
+  {
+    transform: translateX(0%);
+  }
+  @keyframes navLinkFade{
+    from{
+    opacity: 0;
+    transform: translateX(50px);
+    }
+    to{
+    opacity: 1;
+    transform: translateX(0px);
+    }
+  }
+
+  nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    position: relative;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .form__button{
+    margin: 20px;
+}
+
+
+nav a:hover{
+    color: #E1AD01;
+}
+
+nav .menu::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 80%;
+    background-color: #E1AD01;
+    position: absolute;
+    top: -1px;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
